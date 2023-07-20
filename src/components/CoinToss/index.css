@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  background-size: cover;
+  padding: 10px;
+}
+.app-card-container {
+  background-color: #ffffff;
+  background-size: cover;
+  padding: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+
+.description {
+  font-family: 'Roboto';
+  color: #334155;
+}
+
+.head-image {
+  max-width: 200px;
+  margin-bottom: 10px;
+}
+
+.toss-button {
+  background-color: #e2a139;
+  padding: 5px;
+  font-family: 'Roboto';
+  font-size: 9px;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.toss-count-container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.total,
+.heads,
+.tails {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #475569;
+  margin: 20px;
+}
